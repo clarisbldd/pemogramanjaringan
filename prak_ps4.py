@@ -9,7 +9,7 @@ uploaded_file = st.file_uploader("car_evaluation_with.csv", type="csv")
 
 if uploaded_file is not None:
     # Baca dataset
-    df = pd.read_csv(uploaded_file)
+    df = pd.read_csv(car_evaluation_with.csv)
     
     # Tampilkan data frame
     st.write("Dataset Anda:")
